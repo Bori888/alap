@@ -1,0 +1,34 @@
+.kiv {
+    background-color: rgb(66, 53, 182);
+    
+}
+.tartalom {
+    display: flex;
+    justify-content: space-between;/*egyelő helyet hagy a divek közöt*/
+    flex-wrap: wrap;
+    height: 200px;
+    justify-content: center;
+    
+    
+
+}
+.tartalom .kep {
+    flex:0 0 150px;
+    padding: 20px;
+
+ }
+ .tartalom  img:hover {
+    background-color: rgb(66, 53, 182);
+
+ }
+ 
+ .tartalom img {
+     width: 100%;
+     border: solid 1px black;
+     padding: 10px;
+     height: 150px;
+   
+ }
+ body{
+    background-color: rgb(125, 198, 211);
+ }
